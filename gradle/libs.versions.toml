@@ -1,0 +1,54 @@
+[versions]
+activity-ktx = "1.7.2"
+androidx-junit = "1.1.5"
+benchmark-junit4 = "1.1.1"
+collection-ktx = "1.2.0"
+constraintlayout = "2.1.4"
+appcompat = "1.6.1"
+core-ktx = "1.10.1"
+databinding-compiler = "8.1.1"
+espresso-core = "3.5.1"
+fragment-ktx = "1.6.1"
+glide = "4.16.0"
+junit = "4.13.2"
+kotlinx-coroutines-android = "1.7.3"
+lifecycle-runtime-ktx = "2.6.1"
+lifecycle-reactivestreams-ktx = "2.6.1"
+lifecycle-livedata-ktx = "2.6.1"
+lifecycle-livedata-core-ktx = "2.6.1"
+material = "1.9.0"
+navigation-ui-ktx = "2.7.2"
+navigation-fragment-ktx = "2.7.2"
+palette-ktx = "1.0.0"
+room-ktx = "2.5.2"
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity-ktx" }
+androidx-benchmark-junit4 = { module = "androidx.benchmark:benchmark-junit4", version.ref = "benchmark-junit4" }
+androidx-collection-ktx = { module = "androidx.collection:collection-ktx", version.ref = "collection-ktx" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+androidx-databinding-compiler = { module = "androidx.databinding:databinding-compiler", version.ref = "databinding-compiler" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment-ktx" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-lifecycle-livedata-core-ktx = { module = "androidx.lifecycle:lifecycle-livedata-core-ktx", version.ref = "lifecycle-livedata-core-ktx" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigation-ui-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-palette-ktx = { module = "androidx.palette:palette-ktx", version.ref = "palette-ktx" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-reactivestreams-ktx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-databinding-runtime = { group = "androidx.databinding", name = "databinding-runtime", version = "8.1.1" }
+
+[plugins]
+
+[bundles]
+
