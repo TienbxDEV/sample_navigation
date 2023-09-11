@@ -5,7 +5,6 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:windowTranslucentStatus">true</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="fontFamily">@font/roboto_regular</item>
     </style>
 
     <style name="Theme.SampleNavigation" parent="Base.Theme.SampleNavigation" />

@@ -66,4 +66,6 @@ dependencies {
     /* palette */
     implementation(libs.androidx.palette.ktx)
 
+    /* swiperefresh */
+    implementation(libs.androidx.swiperefreshlayout)
 }
